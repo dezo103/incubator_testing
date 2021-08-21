@@ -1,6 +1,8 @@
 let inputText = document.querySelector('input');
 let button = document.querySelector('.button');
-button.addEventListener('click', showText);
+button.addEventListener('click', function(){
+    setTimeout(showText, 3000);
+});
 
 const arrayOfObject = [
     {
@@ -24,6 +26,7 @@ function showText() {
         alert(inputText.value + '. ' +arrayOfObject[0].name);
     }
 }
+
 
 function superSum(a, b) {
     alert (a + b);
