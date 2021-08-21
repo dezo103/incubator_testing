@@ -29,5 +29,16 @@ function superSum(a, b) {
     alert (a + b);
 }
 
+let arrayOfNumbers = [2, 56, 78, 4, 34, 2, 78, 78, 90];
+let min = arrayOfNumbers[0];
+let max = min;
 
+for (let i = 0; i<arrayOfNumbers.length; i++) {
+   if (arrayOfNumbers[i] > max) {
+       max = arrayOfNumbers[i];
+   }
+   if (arrayOfNumbers[i] < min) {
+       min = arrayOfNumbers[i];
+   }
+}
 
