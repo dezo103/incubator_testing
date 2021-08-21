@@ -25,5 +25,9 @@ function showText() {
     }
 }
 
+function superSum(a, b) {
+    alert (a + b);
+}
+
 
 
