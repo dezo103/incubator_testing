@@ -42,3 +42,14 @@ for (let i = 0; i<arrayOfNumbers.length; i++) {
    }
 }
 
+let a = 56;
+let b = 78;
+
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
+
+
