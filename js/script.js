@@ -3,6 +3,11 @@ let button = document.querySelector('.button');
 button.addEventListener('click', showText);
 
 function showText() {
-    alert(inputText.value);
+    if (inputText.value === 'google') {
+        alert('Yandex круче. Но это не точно');
+    }
+    else {
+        alert(inputText.value);
+    }
 }
 
