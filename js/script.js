@@ -53,3 +53,14 @@ console.log(a);
 console.log(b);
 
 
+function findMax(arr) {
+    let maxNumber = arr[0];
+    arr.forEach(function(e) {
+        if (e > maxNumber) maxNumber = e;
+    });
+    return maxNumber;
+}
+
+
+
+
